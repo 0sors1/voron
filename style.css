@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-user-select: none;
+}
+.up{
+    width: 100%;
+    height: 5.5vh;
+    background-color: darkslategray;
+    font-size: 40px;
+}
+.centre{
+    width: 100%;
+    height: 140vh;
+    background-color: rgb(192, 205, 230);
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding-bottom: 45px;
+}
+.centre2{
+    width: 100%;
+    height: 165vh;
+    background-color: rgb(192, 205, 230);
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    padding-bottom: 45px;
+}
+.left{
+    width: 30%; 
+}
+.right{
+    width: 70%;
+    
+}
+@font-face{
+    font-family: "Mysl";
+    src: url("ofont.ru_Ropa\ Sans\ SC\ PTT.ttf")
+}
+@font-face{
+    font-family: "dud";
+    src: url("DudkaBold.ttf")
+}
+.logo{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    border-radius: 1000px;
+}
+#a1{
+    font-family:"Mysl";
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu p{
+    font-size: 100%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+
+}
+.banner img{
+    width: 60%;
+}
+.info{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.info1{
+    font-size: 100%;
+    font-family: "dud";
+}
+#a2{
+    color: rgb(255, 81, 0);
+    margin-top: 2%;
+}
+.reklama{
+    background-color:rgba(207, 219, 240, 0.938); 
+    margin-top: 50%;
+    padding: 5%;
+    margin-left: 25%;
+    width: 40%;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 100px;
+}
+#i1{
+    
+    background-image:url(photo/Screenshot_1.png) ;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px
+}
+#p1{
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.down{
+    width: 100%;
+    border-top: 2px solid rebeccapurple;
+    padding-bottom: 40px;
+    background-color: rgb(92, 104, 114);
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.review{
+    display: grid;
+    grid-template-rows: 35% 60%;
+}
+.pictureReview{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.pictureReview img{
+    width: 80px;
+    height: 80px;
+}
+.review p{
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+.pictureReview img:hover{
+    cursor: pointer;
+    filter: contrast(50%);
+    filter: drop-shadow(1000px);
+    transition: 700ms;
+}
+.menu a p{
+    border-radius: 20px;
+    padding: 10px;
+}
+.menu a p:hover{
+    background-color: crimson;
+    box-shadow: 3px 3px 3px 3px red
+}
+.info2 p{
+    font-size: 50px;
+}
+.info2 img{
+    width: 200px;
+    height: 200px;
+}
+.developer{
+    margin-left: 40%;
+    width: 50%;
+    font-size: 30px;
+    align-items: center;
+    font-weight: 300;
+}
+.social{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10%;
+    
+}
+.social div{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social img{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+.social img:hover{
+    width: 110PX;
+    height: 110px;
+    filter: contrast(50%);
+    backdrop-filter: blur(3px);
+    backdrop-filter: brightness(60%);
+    transition: 1s;;
+}
+@keyframes  animationText{
+    0%{
+        font-weight: 100;
+        color: black;
+        font-size: 40px;
+    }
+    25%{
+        font-weight: 100;
+        color: rgb(255, 0, 0);
+        font-size: 40px;
+    }
+    50%{
+        font-weight: 100;
+        color: blue;
+        font-size: 40px;
+    }
+    75%{
+        font-weight: 100;
+        color: green;
+        font-size: 40px;
+    }
+    100%{
+        font-weight: 100;
+        color: black;
+        font-size: 40px;
+    }
+
+}
+#p3{
+    animation: animationText 6s infinite;
+}
+.curent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+.currentContainer{
+    
+    width: 50%;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    height: 170%;
+    padding: 2%;
+    font-size: 50%;
+    line-height: 160%;
+}   
+#img7 img{
+    width: 25%;
+    height: 25%;
+}
+.strok{
+    display: grid;
+    grid-template-columns: 6% 14% 30% 50%;
+    
+}
+.strok img{
+    width: 100%;
+}
+.grid{
+    font-size: large;
+}
+.strok table, td, th {
+border-collapse: collapse;
+    border: 2px solid;
+    text-align: center;
+    
+}
+#w{
+    font-weight: 600;
+    font-size: 20px;
+}
+td{
+    display: flex;
+    align-items: center;
+}
+.right3{
+    width: 70%;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.fieldGame{
+    width: 80%;
+    height: 80vh;
+    background-color: rgb(101, 131, 131);
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 30% 50% 20%;
+}
+.textGame{
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(22, 99, 150);
+    font-size: 27px;
+    border-radius: 20px;
+    line-height: 150%;
+    text-align: center;
+    font-family: "dud";
+}
+.fieldBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fieldBox img{
+    width: 20%;
+}
+.fieldBox img:hover{
+    cursor: alias;
+    border: 1px solid red;
+    filter: contrast(150%);
+}
+.restartButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.restartButton button{
+    width: 20%;
+    padding: 1%;
+    font-size: 16pt ;
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+}
+#restartButton{
+    display: none;
+}
+#win{
+    display: none;
+}
+#lose{
+    display: none;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.bugCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxex{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("photo/178615-graficeskij_dizajn-purpur-fioletovyj-pryamougolnik-purpurnyj_cvet-500x.jpg");
+    background-image: 75% 75%;
+    
+}
+.bugBox button{
+    padding: 10%;
+    font-size: 14pt ;
+    border-radius: 20px;
+    border: 1px solid rgb(156, 156, 204);
+    background-color: rgb(161, 101, 101);
+}
+.fieldGame button:hover{
+    cursor: url(photo/icons8-электрифицированный-курсор-32.png), auto;
+}
+.bugStatistic{
+    margin-left: 50px;
+}
+.bugField{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bugField button{
+    width: 40%;
+    background-color: rgb(101, 131, 131);
+    border: 1px solid rgb(101, 131, 131);
+}
+#voron{
+    width: 100%;
+}
+@font-face{
+    font-family: "stamp";
+    src: url("DS\ Stamper.ttf");
+}
+#count{
+    font-family: "stamp";
+}
+.bugBuster{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bugBuster div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+}
+.bugBuster img{
+    width: 16%;
+    height: 50%;
+    padding-right: 2px;
+}
+#buyPower:hover{
+    cursor: url(photo/icons8-электрифицированный-курсор-32.png), auto;
+}
+#Semki{
+    width: 50%;
+    height: 80%;
+    margin-left: 25%;
+    padding-top: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    border: 1px solid cornsilk;
+    box-shadow:  0px 0px 5px 5px rgb(0, 0, 0);
+}
+#Semki::backdrop{
+    background-color: rgb(190, 187, 173, 0.705);
+}
+#Semki::-webkit-scrollbar{
+    display: none;
+}
+#ferma{
+    width: 50%;
+    height: 80%;
+    margin-left: 25%;
+    padding-top: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    border: 1px solid cornsilk;
+    box-shadow:  0px 0px 5px 5px rgb(0, 0, 0);
+}
+#ferma::backdrop{
+    background-color: rgb(190, 187, 173, 0.705);
+}
+#ferma::-webkit-scrollbar{
+    display: none;
+}
+.containers{
+    display: grid;
+    grid-template-rows: 10% 10% 80%;
+    text-align: center;
+}
+.containerc{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.containerc div{
+    padding: 5px;
+    border: 1px solid beige;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.gridcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#kad img{
+    width: 100px;
+    height: 100px;
+}
+.onecard{
+    width: 40%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    margin-top: 40px;
+    border: 1px solid rgb(156, 156, 204);
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.topPath{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.topPath div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.onecard{
+    font-size: large;
+}
+
+.topPath0toptoptoptop div img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+}
+.bottomPath{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 20%;
+    border-top: 1px solid rgb(192, 205, 230, 0.5);
+}
+.bottomPath div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomPath div:first-child{
+    border-right: 1px solid rgb(156, 156, 204 0.5);
+}
+.bottomPath div:last-child:hover{
+    cursor: url(photo/icons8-электрифицированный-курсор-32.png), auto; ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zaglushka{
+    display: none;
+}
+@media (max-width: 1099px){
+    .zaglushka{
+        display: flex;
+        text-align: center;
+        margin-top: 200px;
+    }
+    .up{
+        display: none;
+    }
+    .centre{
+        display: none;
+    }
+    .centre2{
+        display: none;
+    }
+    .down{
+        display: none;
+    }
+    .fieldBox{
+        display: none;
+    }
+    .fieldGame{
+        display: none;
+    }
+    .bugField{
+        display: none;
+    }
+    .bugCard{
+        display: none;
+    }
+    .bugStatistic{
+        display: none;
+    }
+    .restartButton{
+        display: none;
+    }
+}
